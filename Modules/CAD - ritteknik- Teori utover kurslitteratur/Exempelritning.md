@@ -7,4 +7,4 @@ Materialangivelse saknas på nedan ritning samt generell tolerans för måttsät
 
 Var  oerhört noggranna med att granska detaljer på denna ritning utifrån de steg ni ser i strategin för detaljritningar.
 
-bild
+[bild](https://github.com/darkraven92/ML1302/blob/master/Modules/CAD%20-%20ritteknik-%20Teori%20utover%20kurslitteratur/tid02khe_stoppklack_ex_large.png)
