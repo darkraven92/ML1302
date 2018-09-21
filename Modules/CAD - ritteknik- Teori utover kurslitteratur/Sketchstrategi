@@ -1,0 +1,37 @@
+Nedan hittar ni en strategi/checklista för att skapa en bra sketch.
+
+Generellt bör ni tänka på att en sketch inte får bli för komplex. Mer än 25-30 linjer kan anses vara för komplext. Detta är dock alltid beroende på modellen och faktorer som tillverkningsmetod.
+
+Många gånger utgör en sketch grunden till den geometri som skapas. Tänk er då att den första sketchen för den första featuren som skapas (Extrude/Revolve) Bör efterlikna tillverkningsmetoden.
+
+Ett exempel:
+
+Om vi ska modellera ett nav till en cykelfälg och detaljen är tänkt att fräsas fram ur en solid stång av aluminium. Då kan det finnas skäl att skapa den första sketchen som en cirkel som är lika stor som det ämne (stången) som ska användas. Den Extrude som skapas av stången blir då den feature som bestämmer längden på detaljen.
+
+En sketch kan skapas på flera sätt.
+
+I modell
+När en sketch används av grundfunktioner i Creo och som del av modellering som Extrude och Revolve så finns det ingen anledning till att ha en extern sketch ,det är därför ej tillåtet. Den enda gången externa sketcher är tillåtna är om sketchen av specifik anledning ska användas som grund till flera features eller i de fall som en feature kräver det. I grundkursen används inga features som kräver externa sketcher.
+
+Som en separat fil
+Anledningen till att skapa en helt separat fil kan vara att det finns ett behov av att återanvända sketchen i flera olika modeller. Ett exempel på många företag är om företagets logga ska fräsas ut i modellerna. Många företags loggor består av många linjer och blir väldigt komplexa. Det finns ingen anledning att återskapa dessa varje gång de ska användas. Varför uppfinna hjulet på nytt?
+
+Om en sketch sparas separat för återanvändning får den filändelsen .sec
+
+Placeras den filen sedan i vår startupfolder: creo2cad så kommer den vara valbar inifrån sketchpaletten.
+
+Strategi för själva sketchen
+Nedan följer en kort checklista/strategi för hur en sketch bör tas fram
+
+Sketchplan & rotation
+Sketchplan väljs baserat på vilket plan eller yta som sketchen ska utgå ifrån. Välj alltid ett av standardplanen om det är möjligt (de tre första). Dom är de stabilaste som finns i en modell. Självklart får nya plan och geometriska ytor användas där det behövs för att skapa en flexibel modell.
+Rotationsreferens väljs så att modellen roterar upp så att vi ser detaljen så som den är tänkt att vara vriden när den används. Den referensen ska också vara en referens som är tänkt att användas för sketchens måttsättning. Välj inte referenser som är inte är tänkta att nyttjas.
+Referenser
+Utöver sketchplan och rotationsreferens så kan ett otal referenser väljas till. Välj bara de ni behöver. Fler referenser än nödvändigt kan gör att ni råkar referera till något oavsiktligt och får problem framöver. Referensboxen är också oerhört värdefull om vi behöver rita om något och kontrollerat vill styra om era referenser.
+Hjälplinjer, datumreferenser (konstruktionslinjer)
+Dessa används för att lättare skapa upp stabila sketcher. Se exemplet från kurslitteraturen för hur en sexkant kan skapas upp med hjälp av tre konstruktionscirklar.
+Sketchgeometri (Fokusera på form, inte exakta mått i detta läge.) (Använd villkor on the fly)
+Trimma bort eller bind ihop (Delete segment och Corner)
+Sätt fler villkor vid behov.
+Måttsätt (OBS, egna mått, inga weak dimensions)
+Editing, Modify (Skala till rätt storlek)
