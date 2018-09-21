@@ -1,0 +1,61 @@
+Att väga in vid ritnings och modellskapande
+Funktion - Är måttsättningen sådan att detaljen kan tillverkas så att den tänkta funktionen kan säkerställas?
+
+Tillverkning - Underlättar måtten för den eller de personer som ska tillverka detaljen. Tänk på hur du själv skulle vilja ha ritningen.
+
+Kontroll - Går det att mäta de mått som angivits på ett så smidigt sätt som möjligt?
+
+Steg för steg - strategi
+1. Modellera logiskt och med syfte på att kunna hämta mått från modellen (Alla mått ska hämtas från modellen, undantag finns men inte i ML1302)
+2. Fundera igenom vilka snitt som behövs och skapa dom på modellen.
+
+a. Namngivning A, B, C …
+
+b. Detaljvyer får inte ha samma namn som snitt.
+
+3. Skapa en vy som tydligt representerar detaljen i 3D i modellen för att kunna visa på ritning.
+4. Skapa en ritning med rätt format.
+5. Fyll i rithuvud korrekt
+6. Ange material och eventuell efterbehandling. (Skapa parameter Material i modell, Hämta från modell &Material)
+
+a. Efterbehandling ej med som moment i ML1302. Härdning, Målning, eloxering…..
+
+7. Lägg ut vyer.
+
+a. Huvudvy: Generellt den som visar mest av detaljen (No hidden, none)
+b. Projiceringar: Så många som behövs (No hidden, none)
+c. 3D-vy (No hidden, dimmed)
+d. Eventuella extra vyer: Detaljvyer(X, Y, Z...) auxillary… (No hidden, none)
+
+8. Bestäm skala som gör att alla mått får plats.
+9. Tänd upp tidigare skapade snitt
+
+a. Glöm inte snittpilar.
+b. Korrekt hatchning (45 eller 135 grader och med ett bra avstånd. Är ritningen på A3 kan värdet 2 vara en bra grund.
+
+10. Lägg ut axlar. Alla centrumlinjer för hål
+11. Börja kalla ut mått
+
+a. Ingen dubbelmåttsättning
+b. Inga mått på geometri.(Finns undantag)
+c. Måttpilar och placering korrekt. (45 grader, horisontellt, vertikalt)
+
+12. Toleranser (Ej med som moment i ML1302)
+
+a. Måtttolleranser
+b. Hål och axlar
+c. Geometriska toleranser
+d. Ytjämnhet
+
+13. Dubbelkoll/Tydlighet/Säkerställ:
+
+a. Break snap lines (Säkerställ att inga måttlinjer korsar varandra.
+b. Korrekt skala
+c. Hatchning.
+d. 12-10-10 för alla annoteringar
+e. Eventuell justering snitt (Är hatchning korrekt)
+f. Rithuvud, dubbelkolla att allt är angivet.
+g. Annoteringar: Stavning och syftning.
+h. Måttsättning, är den korrekt?: 
+i. Kontrollera riktlinjerna högst upp på denna sida.
+k. Följer den de krav som ställs på det företag som ritningen skapats på?
