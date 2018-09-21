@@ -7,4 +7,4 @@ Alla sprängningar ser olika ut.
 
 Det som står i blått ska ses som tips.
 
-[bild]()
+[bild](https://github.com/darkraven92/ML1302/blob/master/Modules/CAD%20-%20ritteknik-%20Teori%20utover%20kurslitteratur/Ex_sammanst%C3%A4llningsritning.png)
