@@ -1,0 +1,10 @@
+Felmeddelandet "Array indices must be positive integers or logical values" betyder att försöket att använda noll som index i en 
+vektor inte är giltigt. Indexet för varje element i en vektor måste vara ett positivt heltal eller en logisk värde (true/false).
+
+I MATLAB och i många andra programmeringsspråk börjar indexeringen av en vektor från 1, inte från 0 som i vissa andra sammanhang. 
+Därför kan man inte använda noll som index i en vektor. Istället bör man använda index 1 för det första elementet i vektorn. Så i detta fall, om 
+Malvina vill tilldela det första elementet i vektorn värdet 35, ska hon skriva:
+
+v(1) = 35
+
+Detta kommer att tilldela det första elementet i vektorn v värdet 35
