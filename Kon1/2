@@ -1,0 +1,6 @@
+a) Modulusoperatorn mod() returnerar resten av divisionen av dess två argument.
+I det här fallet är argumenten 31 och 7. Den största multipeln av 7 som är mindre än eller lika med 31 är 28,
+så 31 kan skrivas som 7 gånger 4 plus en rest på 3. Därför är A = mod(31,7) = 3.
+
+b) Funktionen floor() avrundar sitt argument nedåt till närmaste heltal. I det här fallet är argumentet
+-23/6, som är ungefär -3.8333. Det närmaste heltalet nedåt är -4, så B = floor(-23/6) = -4.
