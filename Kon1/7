@@ -1,0 +1,14 @@
+Variabeln A kommer att bli en 3x3-matris där varje element i matrisen innehåller differensen mellan rad- och kolumnpositionen för det specifika elementet. 
+Matrisen ser ut så här:
+
+diff
+
+A =
+
+ 0    1   2
+-1    0   1
+-2   -1   0
+
+Vi ser att elementen i den första kolumnen är alla noll eftersom differensen mellan rad- och 
+kolumnpositionen alltid kommer att vara 0. I den andra kolumnen är differensen mellan rad- och kolumnpositionen alltid 1, och 
+i den tredje kolumnen är differensen 2. I varje rad är differensen för varje element lika med kolumnpositionen minus radpositionen.
