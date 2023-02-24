@@ -1,0 +1,5 @@
+a) Vektorn C skapas med kolonoperatorn : och stegen 4 mellan varje element. Det första elementet är 3 och det sista elementet är det största tal
+som är mindre än eller lika med 11 och som är delbart med 4, vilket är 11. Därför är C = [3, 7, 11].
+
+b) Matrisen D skapas genom att ange elementen i formen [rad1; rad2], där varje rad anges inom hakparenteser
+och separeras med semikolon. Elementet D(2,1) är 4 och elementet D(2,2) är 9, så E = D(2,1) * D(2,2) = 36.
