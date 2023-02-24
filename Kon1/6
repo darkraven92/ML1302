@@ -1,0 +1,21 @@
+Vi kan utvärdera varje logiskt uttryck genom att använda MATLAB:s logiska operatorer och operatorprioritering. Här är lösningen:
+
+a) Det här logiska uttrycket innehåller två delar som är separerade av || (eller).
+
+För den första delen, (x./2<z||x>z), så har vi x/2 = 1.5 och x=3, så x/2 < z är falskt, men x>z är sant, så hela uttrycket är sant.
+
+För den andra delen, (x*y>0||x.*z>y), så har vi x*y = -3 och x.*z = 6, så båda delarna är sanna, så hela uttrycket är sant.
+
+scss
+
+(x./2<z||x>z)&&(x*y>0||x.*z>y) = (3./2<2||3>2)&&(3*-1>0||3*2>-1) = (0||1)&&(0||1) = 1 && 1 = 1
+
+Så (x./2<z||x>z)&&(x*y>0||x.*z>y) är sant.
+
+b) I det här logiska uttrycket används ~ (icke) och ~=, som betyder "inte lika med".
+
+scss
+
+(~(x = ~-x)) || (x ~= 3) = (~(-x-1=x)) || (x ~= 3) = (x+1=x) || (x ~= 3) = 0 || 0 = 0
+
+Så (~(x=~-x))||(x~=3) är falskt.
